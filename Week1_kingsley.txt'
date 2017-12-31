@@ -1,0 +1,9 @@
+  git status` - 
+  git add .` - 
+  git commit -
+  git branch` - 
+  git remote -v` - 
+  git checkout {name_of_branch}` - 
+  git checkout -b {name_of_branch}` - 
+  git branch -d {name_of_branch}` - 
+  git push origin -u {name_of_branch}` - 
