@@ -27,7 +27,7 @@ console.log('invalid moon phase')
 }
 
 
-$$ = this is to say that both are true
+&& = this is to say that both are true
 || = this is used when either can be true.
 SWITCH STATEMENT;
 
