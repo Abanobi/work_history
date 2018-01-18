@@ -1,5 +1,5 @@
-Variables declared by "let" have as their scope the block in which they are defined,
- as well as in any contained sub-blocks.
+let short name for "let it be"
+unlike the const. let declares a variable that the value could be changed.
 
   let userName = 'kingsley';
 let knowsJavaScript = false;
