@@ -1,0 +1,21 @@
+The const.
+const is  a short name for constant in the javascrift,
+you only add  the values that you don't want to changed or that will never change?
+
+  for example const declaration
+  const myName = 'kingsley';
+  console.log(myname);// prints success.
+
+  const myLocation = 'Nigeria';
+  console.log(myLocation);
+  // the output is Nigeria.
+
+  = this is the assignment operator assigned to the value 'kingsley' to the valiable myName.
+
+IF ELSE STATEMENT:
+This is used to answer question that has multiple yes or No condition.
+
+const moonPhase = 'solar eclipse';
+if(moonPhase ==='full'){
+console.log(how1);
+} if else(moonPhase === 'mostly full');
