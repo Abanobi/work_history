@@ -19,3 +19,29 @@ const moonPhase = 'solar eclipse';
 if(moonPhase ==='full'){
 console.log(how1);
 } if else(moonPhase === 'mostly full');
+{console.log('arms and legs are getting better');
+}else if(moonPhase === 'mostly new')
+{console.log('back on the feet');
+}else {
+console.log('invalid moon phase')
+}
+
+
+$$ = this is to say that both are true
+|| = this is used when either can be true.
+SWITCH STATEMENT;
+
+const moonPhase = 'full';
+switch(moonPhase){
+cass'full':
+console.log('how1!');
+break;
+case 'mostly full';
+console.log('arms and legs are getting Havier');
+break;
+case 'mostly new':
+console.log('back on two feets');
+break;
+default:
+console.log('invalid moon phase');
+// the output 'how1!'

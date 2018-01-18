@@ -1,0 +1,35 @@
+Variables declared by "let" have as their scope the block in which they are defined,
+ as well as in any contained sub-blocks.
+
+  let userName = 'kingsley';
+let knowsJavaScript = false;
+
+if(knowsJavaScript && userName){
+console.log('Great,' + userName +' ! get ready to practice your javescript!');
+}else if (knowsJavaScript){
+console.log('Great! get ready to practice your javaScript');
+{else if (userName){
+console.log('Great! ' + userName +' get ready to larn something new!');
+}else {
+console.log('great! get ready to learn something new');
+// great, kingsley! get ready to learn something new!
+
+
+Else if statement.
+
+let stopLight = 'green';
+if (stopLight === 'red');{
+console.log('stop');
+}else if {stopLight === 'yellow)
+{ console.log('slow down');{
+if else( stopLight ===green)
+console.log('go!');
+else{
+console.log('cuation, unknown!');
+}
+
+let toPrint = 'Hello World.';
+{
+let toPrint = 'Goodbye World.';
+}
+console.log(toPrint); // Prints 'Hello World'
