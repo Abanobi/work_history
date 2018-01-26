@@ -1,0 +1,28 @@
+The block statement is often called compound statement in other languages.
+It allows you to use multiple statements where JavaScript expects only one "statement"..
+The block is delimited by a pair of curly brackets and may optionally be "labelled":e.g
+
+var str = "";
+loop1:
+for (var i = 0; i < 5; i++) {
+  if (i === 1) {
+    continue loop1;
+  }
+  str = str + i;
+}
+console.log(str);
+// output: 0234
+
+label: Any JavaScript identifier that is not a reserved word.
+Statements: break can be used with any labeled statement, and continue can be used with looping labeled statements.
+You can use a label to identify a loop, and then use the break or continue statements to indicate whether a program should
+interrupt the loop or continue its execution.
+
+Note: that JavaScript, you can only use labels with break or continue.
+
+var x = 1;
+{
+  var x = 2;
+}
+console.log(x); // logs 2
+This logs 2 because the var x statement within the block is in the same scope as the var x statement before the block. In C or Java, the equivalent code would have outputted 1.

@@ -1,0 +1,25 @@
+Function is a code snippet that could be called by others, or called by itself.
+
+
+ There are Three Types of Futures.
+. Named function: this is a function with a function name:
+ (example) function foo()
+ + the function has a name. "foo"
+
+#. An anonymous function: this is a function without a function name. as the name implied.
+example: function ()
++ here the function has no name.
+
+. An inner function is a function inside another function
+example: function Squares (a,b)
++ (square in this case) is a function inside another "function"
+
+. An outer function: this is a function containing a function
+   example: function addsquare (x)
++ "addsquare" is a function inside another function.
+
+. A recursive function is a function that calls itself. See recursion
+example, function loop(x)
++ Recursion is used to solve problems that contain smaller sub-problems.
+  A recursive function can receive two inputs
+ a base case (ends recursion) or a recursive case (continues recursion).

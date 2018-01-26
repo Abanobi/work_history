@@ -1,0 +1,51 @@
+The switch statement evaluates an expression, matching the expression's
+value to a case clause, and executes statements associated with that case,
+ as well as statements in cases that follow the matching case.
+
+ 1. Using switch statement, what could happen if by mistake or intentionally the
+ Break was omitted.
+ the omitting of the break will run the script were the last criterial were met.
+ then if the breaks was continued after being omitted, the other criterial will
+ not be run.
+
+example below...
+
+const check = 10;
+switch (check) {
+  case -11:
+    console.log('11');
+    break;
+  case 10: // check = 10 so criteria met here
+    console.log(11);
+    // NOTE: the forgotten break would have been here
+  case 9:
+  // no break statement in 'case 10:' so this case will run as well
+    console.log(9);
+    break; // it encounters this break so will not continue into 'case 2:'
+  case 2:
+    console.log(2);
+
+// here the break stop after the case value Paul
+. then the criterial was met.
+before the case with the criterial was met.
+
+2. Multi-case - single operation
+This method takes advantage of the fact that if there is no break below
+a case statement, it will continue to execute the next case statement
+ regardless if the case meets the criteria.
+
+
+var myName = 'kingsley';
+switch(myName){
+  case 'eugine':
+    console.log("eugine is my name");
+    break;
+  case 'paul':
+    console.log('paul is my name');
+    break;
+  case 'Abanobi':
+  case 'kingsley':
+  case 'Uzoma':
+    console.log('Abanobi kingsley Uzoma is my name');
+
+}
