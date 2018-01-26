@@ -19,7 +19,7 @@
 // 1. write a function that takes a number as a parameter and returns it as a
 // string
 function inString(2){
-  return 2 = 2.intoString();
+  return 2 = 2.toString();
 }
 
 // 2. write a function that takes a number as a parameter and returns that
@@ -33,13 +33,15 @@ function subtNum(x){
 // number added by 1
 function numAdd(x){
    x = Number(x);
-   return x += 1; }
+   return x += 1;
+ }
 
 // 4. write a function that takes two number as its parameters and returns then
 // addition of those two numbers
 function AddNum(a,b){
    a = Number(a); b = Number(a);
   return c = a+b;
+}
 
 
 // 5. write a function that takes two number as its parameters and returns then
@@ -57,18 +59,20 @@ if(number >=%2){
   return true;
 }else}
 return false;
+}
 
-}// 7. write a function that takes two strings as its parameters and returns the
+// 7. write a function that takes two strings as its parameters and returns the
 // combination of those two strings
-function combString(one,two){
+function combnString(one,two){
    one = one.toString();
    two = two.toString();
   return three = one.concat(two);
+}
 
 // 8. write a function that takes the radius of a circle a parameter and returns
 // the Area of the circle.
 // For this exercise π (pie) can equal `3.14`
 function areaofCircle(radius){
  const Area = 3.14*(radius**2);
- return Area; 
+ return Area;
 }

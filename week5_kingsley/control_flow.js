@@ -77,9 +77,8 @@ function shouldINap(mood){
 
 function shouldINapV2(mood) {
     if(mood==='tired'|| mood==='sleepy'){
-     return true;  
+     return true;
      }else if(mood ==="energetic") {
       return console.log("Go use that energy and learn more javascript");
-    }
-    else{
-      return false
+    }else{
+      return false;
