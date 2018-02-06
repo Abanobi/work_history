@@ -1,0 +1,9 @@
+let kelvin = 294; // create a variable.
+kelvin -= 273;
+const celsius = 21;
+// kelvin subtracted from 273 //
+let fahrenheit = 21;
+fahrenheit = celsius * (9/5) + 21;//convert celsius to fehrenheit
+fehrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit}. degrees fahrenheit`);
+// result: The temperature is 58.800000000000004. degrees fahrenheit .

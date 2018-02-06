@@ -1,0 +1,22 @@
+let raceNumber = Math.floor(Math.random()*1000);
+let runnerRegister = true;
+let runnerAge = 18;
+if (runnerRegister = true){
+  runnerAge += 1000;
+}
+if(runnerAge > 18);{
+  console.log('Race time 9:30 am, race numbers 6,1,3')
+}
+if(raceRegister = 18);{
+  console.log('Race time 9:30 am, race numbers 7,4,3')
+}
+if(runnerAge < 18);{
+console.log('Race time 12:30pm, race numbers 5,9,8')
+}
+if (runnerRegister = 18 && runnerAge > 18){
+  console.log('see the registration desk')
+}
+   / *Race time 9:30 am, race numbers 6,1,3
+Race time 9:30 am, race numbers 7,4,3
+Race time 12:30pm, race numbers 5,9,8
+see the registration desk */

@@ -1,0 +1,17 @@
+let myAge = 27;
+// a variable set to my name.
+let earlyYears = 2;
+// create a variable earlyYears and set it to 2
+earlyYears *= 10.5;
+myAge -= 2;
+let laterYears = 25;
+laterYears *= 4;
+// the laterYears variable declared
+earlyYears += laterYears;
+let myAgeInDogYears = 27;
+// earlyYears added to laterYeras
+let myName = 'KINGSLEY';
+myName.toLowerCase()
+// turn myName to a lower case
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+// output = My name is KINGSLEY. I am 27 years old in dog years.
